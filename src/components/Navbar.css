@@ -1,0 +1,72 @@
+.nav-custom{
+    
+    background-color:   #fff !important;
+    margin-top: 20px;
+}
+.navbar-brand h1{
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin-left: 100px;
+    color: #e3b04b;
+}
+.nav-item{
+    margin-right: 5rem;
+    font-size: 20px;
+   
+}
+nav .navbar-nav li a{
+    color: #000 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    }
+i{
+    color:#000;
+    font-size:  2rem;
+    right:5rem;
+margin-right: 20px;
+
+ 
+
+}
+.icons-container{
+    position:absolute;
+    top:0; right:180px
+}
+@media (max-width: 760px) { /* Remplacez 123px par la taille de votre choix */
+    .navbar-header {
+    float: none;
+    }
+    .navbar-toggle {
+    display: block;
+    }
+    .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+    display: none!important;
+    }
+    .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+    float: none;
+    }
+    .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    .navbar-text {
+    float: none;
+    margin: 15px 0;
+    }
+    /* cette classe est à ajouter lorsque que vous utilisez une version de Bootstap supérieure ou égale à la 3.1.0 */
+    .navbar-collapse.collapse.in {
+    display: block!important;
+    }
+    .collapsing {
+    overflow: hidden!important;
+    }
+    }
