@@ -63,7 +63,7 @@ editpet(){
     return (
 
         <div>
-            <Navbar/>
+           
         <div class="container-xl px-4" style={{marginTop:"100px",position:"relative"}}>
       
        
